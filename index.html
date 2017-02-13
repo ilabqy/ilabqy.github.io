@@ -1,4 +1,4 @@
-﻿
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -9,6 +9,9 @@
         body, td, input, textarea, select {
             font-family: arial,sans-serif;
             color: #4c4c4c;
+        }
+        img {
+            margin:0 auto;
         }
 
         .tab {
@@ -87,13 +90,13 @@
     </section>
 
     <div class="main-content" align="middle">
-        <div align="left" class="main-content" style="width:1200px;height:auto;">
+        <div align="left" class="main-content" style="width:1000px;height:auto;margin:0 auto;">
             <p>The purpose of this dataset is to test segmentation algorithms on stereo image pairs.
             The dataset consists of 37 pairs of stereo images and their additional data, including ground
             truth images, input strokes and disparity maps (as shown in the figure below).
              </p>
-              <div class="image" class="main-content" align="middle" style="width:1200px;height:auto;">
-            <img src="images/overview.png" width="1141px" height="1153px" />
+              <div class="image" class="main-content" align="middle" style="width:1000px;height:auto;margin:0 auto;">
+            <img src="images/overview.png" width="1000px" height="1153px" />
             </div>
             
            <p class="main-content"> Image No.1 to image No.30 are from the Adobe Stereo Selection Dataset [1],
@@ -113,12 +116,12 @@
 
         </div>
         </br>
-        <div id="download"  class="main-content" align="left" style="width:1200px;height:auto;">
+        <div id="download"  class="main-content" align="left" style="width:1000px;height:auto;margin:0 auto;">
            <p> All the additional data can be downloaded <a href="/dataset.zip"><font color=#0066CC>here</font></a>. This dataset has been used in [6].</p>
        
         </div>
      
-        <div align="left" class="main-content" style="width:1200px;height:auto;">
+        <div align="left" class="main-content" style="width:1000px;height:auto;margin:0 auto;">
              <p>We present a new method in the paper “Interactive Stereo Image Segmentation with RGB-D hybrid 
             Constraints” submitted to IEEE Signal Processing Letters. Compared to the other methods, our method
             utilizes two more clues, disparity distribution (DispDis), and disparity variance (DispVar).
@@ -128,12 +131,12 @@
                
 
             </div>
-            <div class="image" class="main-content" align="middle" style="width:1200px;height:auto;">
+            <div class="image" class="main-content" align="middle" style="width:1000px;height:auto;margin:0 auto;">
             <img src="images/detaildata.png" width="950px" height="1000px" />
             </div>
           
                  
-             <div align="left" class="main-content" style="width:1200px;height:auto;">
+             <div align="left" class="main-content" style="width:1000px;height:auto;margin:0 auto;">
              <p>
             Here are  some of the result images of segmentation with only DispDis, with only DispVar,
             and with both of the clues (our method), and the result images of three state-of-the-art methods [1][5][6] 
@@ -142,11 +145,11 @@
             </div>
             
             
-            <div class="image" class="main-content" align="middle" style="width:1200px;height:auto;">
-            <img src="images/FIG6.png" width="950px" height="650px" />
+            <div class="image" class="main-content" align="middle" style="width:1000px;height:auto;margin:0 auto;">
+            <img src="images/FIG6.png" width="950px" height="1000px" />
             </div>
             
-             <div align="left" class="main-content" style="width:1200px;height:auto;">
+             <div align="left" class="main-content" style="width:1000px;height:auto;margin:0 auto;">
             [1] Price, S. Cohen  "StereoCut: consistent interactive object selection in stereo 
         image pairs", in ICCV, 2011.</br>
            [2] Y. Niu, Y. Geng, X. Li, F. Liu, “Leveraging stereopsis for saliency analysis”, in CVPR, 2012.</br>
@@ -159,7 +162,10 @@ consistent object extraction for stereo images,” in Advances in Multimedia Inf
             [6] W. Ma, L. Yang, Y. Zhang,  L. Duan, “Fast interactive stereo image
 segmentation,” Multimedia Tools and Applications,2015.</br>
 </div>
-        
+
+         <div align="left" class="main-content" style="color:#ff3333;width:1000px;height:auto;margin:0 auto;padding-top:10px;">
+         There is one word misused in the sentence starting at the 6th line of Part A, Section III (EXPERIMENTAL RESULTS). “The error rate in one view is defined as the ratio of the number of pixels incorrectly labeled to the total number of ground-truth background pixels in the view.” The word “background” was misused as foreground.
+         </div>
     </div>
     
     
